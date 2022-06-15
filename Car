@@ -1,1 +1,32 @@
+package week1.day2.Assignment;
+
+public class Car
+{
+	public void applyBreak()
+	{
+		System.out.println("Break is applied");
+	}
+	public void applyGear()
+	{
+		System.out.println("Gear is applied");
+	}
+	public void switchOnAc()
+	{
+		System.out.println("AC is switched on");
+	}
+	public void applyAcclerate()
+	{
+		System.out.println("Accelerated applied");
+	}
+	public static void main(String[] args) 
+	{
+	
+	Car car=new Car();
+	car.applyBreak();
+	car.applyGear();
+	car.switchOnAc();
+	car.applyAcclerate();
+	
+	}
+}
 
