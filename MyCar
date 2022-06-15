@@ -1,0 +1,12 @@
+package week1.day2.Assignment;
+
+public class MyCar {
+
+public static void main(String[] args) {
+	Car mycar=new Car();
+	mycar.applyBreak();
+	mycar.applyGear();
+	mycar.switchOnAc();
+	mycar.applyAcclerate();
+}
+}
